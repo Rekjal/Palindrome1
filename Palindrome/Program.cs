@@ -7,10 +7,12 @@ namespace Palindrome
     {
         public static void Main()
         {
-            // Console.WriteLine("Enter a string:");
-            // string enteredString = Console.ReadLine();
+            Console.WriteLine("Enter a string:");
+            string enteredString = Console.ReadLine();
             
-
+            Palindrome1 SomeObjectName = new Palindrome1();
+            bool result = SomeObjectName.PalindromeCheck(enteredString);
+            Console.WriteLine(result);
 
             
         }
